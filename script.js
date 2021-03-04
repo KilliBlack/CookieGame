@@ -13,7 +13,7 @@ function up1() {
     if(cookie >= 20) {
         cpc += 1
         cookie -= cenaup
-        cpc += 1
+        cpc += 0
         document.getElementById('cookie').textContent = cookie
     }else {
         alert('HAHAHA seš chudej')
